@@ -10,4 +10,10 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'noori-todo-list';
+  constructor(){
+    // setTimeout(() => {
+    //   this.title = "Title change"
+    // }, 2000)
+    
+  }
 }
